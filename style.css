@@ -43,7 +43,9 @@ body{
 .banner{
     overflow: hidden;
     height: 300px;
-    background-color: #347aba;
+    background:#347aba;
+    background: linear-gradient(#353535,#347aba);
+    background:-o-linear-gradient(#353535,#347aba);
 }
 .bannerinterior{
     width: 80%;
@@ -76,9 +78,6 @@ body{
     margin-top: 20px;
     cursor: pointer;
     border-radius: 5px;
-}
-.conteudo{
-
 }
 .conteudointerno{
     width: 1000px;
