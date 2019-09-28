@@ -243,6 +243,7 @@ body{
 .slideshowarea{
     width: 100000px;
     height: 335px;
+    transition: all 1s;
 }
 .slide{
     height: 335px;
@@ -267,4 +268,7 @@ body{
     font-size: 13px;
     color: white;
     padding-left: 20px;
+}
+.slidebolinhas{
+    position: absolute;
 }
