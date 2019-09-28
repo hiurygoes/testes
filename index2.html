@@ -116,9 +116,12 @@
       <div class="leftside">
         <div class="slideshow" id="slideshow">
           <div class="slidebolinhas">
-            
+            <div class="bolinha active" onclick="mudarSlide(0)"></div>
+            <div class="bolinha" onclick="mudarSlide(1)"></div>
+            <div class="bolinha" onclick="mudarSlide(2)"></div>
+            <div class="bolinha" onclick="mudarSlide(3)"></div>
           </div>
-          <div class="slideshowarea">
+          <div class="slideshowarea" onmouseover="pararAnimacao()" onmouseout="pararAnimacao()">
             <div class="slide" style="background-image: url('imagens/amigos.jpg')">
               <div class="slideinfo">
                 <div class="slideinfo_titulo">Alunos "zoam" professora até ela chorar, e não demonstram piedade.</div>
